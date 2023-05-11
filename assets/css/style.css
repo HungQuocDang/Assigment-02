@@ -1,0 +1,127 @@
+
+
+
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #3d7db9;
+  color: #fff;
+  height: 200px;
+}
+
+
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 200px;
+}
+
+
+
+
+.header h1 {
+    color: #d9dcd6;
+}
+
+.dang {
+    color: #0ca096;
+}
+
+
+p1 {
+  font-size: 86px;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+
+.sites {
+  flex:5;
+  background-color: #948b8b;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+
+.card {
+   padding: 10px;
+  flex: 0 0 100px;
+    margin: 0px;
+}
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 10px;
+  text-align: left;
+}
+
+centering {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 10px;
+  text-align: center;
+}
+
+
+@media (any-hover:hover) {
+  a:hover {
+    background: yellow;
+    height: 50px;
+  }
+}
+
+body {
+  background-color: #948b8b;
+  
+}
+
+
+button {
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-color: #cccccc;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: none
+  }
+}
+button:hover {
+  background-color: #ee5113;
+  color: #fff;
+}
+
+contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #948b8b;
+  justify-content: space-between;
+  align-items: right
+}
+
+.highlighted-text {
+  font-weight: bolder;
+  justify-content: space-between;
+  align-items: right
+}
+
